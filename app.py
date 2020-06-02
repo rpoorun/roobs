@@ -45,7 +45,7 @@ def predict():
             else:
                 sample = tweet_info.full_text
 
-        return render_template('index.html', text = sample)
+        #return render_template('index.html', text = sample)
 
       
         pred  = model.predict([sample])
